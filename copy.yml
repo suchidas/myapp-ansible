@@ -4,5 +4,5 @@
   tasks:
     - name: copy file to remote host
       copy:
-        src: index.html
-        dest: /tmp/index.html
+        src: newindex.html
+        dest: /tmp/newindex.html
