@@ -1,0 +1,7 @@
+- name: run tasks on all hosts
+  hosts: dbserver
+  tasks:
+    - name: copy file to remote host
+      copy:
+        src: /home/ec2-user/testfile.txt
+        dest: /tmp/testfile.txt
