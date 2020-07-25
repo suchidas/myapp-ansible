@@ -1,2 +1,6 @@
 [dbserver]
-3.16.83.95 ansible_user=ec2-user 
+3.16.83.95
+
+#All servers
+[multi:children]
+dbserver
