@@ -4,5 +4,5 @@
   tasks:
     - name: copy file to remote host
       copy:
-        src: /home/ec2-user/testfile.txt
+        src: index.html
         dest: /tmp/testfile.txt
