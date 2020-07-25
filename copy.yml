@@ -1,3 +1,4 @@
+---
 - name: run tasks on all hosts
   hosts: dbserver
   tasks:
